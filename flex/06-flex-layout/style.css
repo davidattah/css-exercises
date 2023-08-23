@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  flex-direction: column;
 }
 
 img {
@@ -41,27 +43,28 @@ input {
   display: flex;
   gap:20px;
   list-style-type: none;
+  margin:0;
+  padding:0;
 }
 
-
-.right-links{
-  margin-right: 20px;
-}
 a{
   text-decoration: none;
   color:#858484;
 }
 
-.container{
+.content{
   display:flex;
+  flex-direction:column;
   justify-content: center;
-  margin:250px;
+  align-items: center;
+  flex:1;
 }
 
 .input,.buttons{
   display:flex;
   justify-content: center;
   padding:5px;
+  
 }
 
 .buttons{
